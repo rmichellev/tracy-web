@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tracy Ramos | Páginas Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+    <div class="nav">
+        <div class="nav-left">
+            <div class="logo-circle">TR</div>
+            <div class="brand-text">
+                <strong>Tracy Ramos</strong>
+                <span>Programadora Web</span>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+<li><a href="#servicios">Servicios</a></li>
+<li><a href="#proceso">Proceso</a></li>
+<li><a href="#portafolio">Portafolio</a></li>
+<li><a href="#sobre-mi">Sobre mí</a></li>
+
+<li><a href="#sobre-mi">Sobre mí</a></li>
+
+                <li><button class="btn-nav" onclick="document.getElementById('contacto').scrollIntoView({behavior:'smooth'})">Quiero mi web</button></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+
+    <!-- HERO -->
+    <section id="inicio">
+        <div class="hero">
+            <div>
+                <div class="hero-badge">
+                    <span>✨ Páginas web profesionales, comunicativas y estilos nuevos</span>
+                </div>
+                <h1 class="hero-title">
+                    Diseños web <span>que enamoran</span> y convierten visitas en clientes.
+                </h1>
+                <p class="hero-subtitle">
+                    Soy Tracy Ramos, programadora web. Creo páginas modernas, ligeras y estratégicas
+                    para emprendedores, marcas personales y negocios que quieren verse profesionales desde el primer clic.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contacto" class="btn-primary">Quiero una página así →</a>
+                    <a href="#servicios" class="btn-secondary">Ver lo que puedo hacer</a>
+                </div>
+                <p class="hero-note">
+                    Imagina que tu página web hable por ti, incluso cuando estás descansando. Esa es la idea.
+                </p>
+            </div>
+
+            <div class="hero-card">
+                <div class="hero-card-title">¿Qué hace diferente una web conmigo?</div>
+                <div class="hero-card-grid">
+                    <div class="mini-badge">
+                        <strong>Primera impresión ganadora</strong>
+                        Diseño limpio, moderno y coherente con tu marca.
+                    </div>
+                    <div class="mini-badge">
+                        <strong>Experiencia real</strong>
+                        Estructura pensada para que la persona se quede y explore.
+                    </div>
+                    <div class="mini-badge">
+                        <strong>Enfoque en ventas</strong>
+                        Llamadas a la acción claras y recorridos simples.
+                    </div>
+                    <div class="mini-badge">
+                        <strong>Acompañamiento</strong>
+                        Te guío en contenido, secciones y decisiones técnicas.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section id="servicios">
+        <h2 class="section-title">Servicios</h2>
+        <p class="section-subtitle">
+            Diseño páginas modernas, claras y basadas en estrategia, con estilos nuevos y enfoque comunicativo.
+        </p>
+
+        <div class="cards-grid">
+            <div class="card">
+                <h3>Sitio web profesional</h3>
+                <p>Página completa con secciones que comunican y convierten.</p>
+            </div>
+            <div class="card">
+                <h3>Landing page</h3>
+                <p>Página enfocada únicamente en una acción: vender, agendar o captar clientes.</p>
+            </div>
+            <div class="card">
+                <h3>Portafolio personal</h3>
+                <p>Muestra tu marca, tus proyectos y tu historia de manera moderna.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROCESO -->
+    <section id="proceso">
+        <h2 class="section-title">Proceso</h2>
+        <p class="section-subtitle">Así trabajo cada proyecto web.</p>
+
+        <div class="steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <h3>Conexión</h3>
+                <p>Análisis de tu marca y objetivos.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <h3>Mapa web</h3>
+                <p>Organizamos secciones y contenido.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <h3>Diseño</h3>
+                <p>Estilo visual atractivo, moderno y único.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERÍA (CARRUSEL) -->
+    <section id="galeria">
+        <div class="carousel-section">
+            <h2 class="section-title">Ideas de proyectos</h2>
+
+            <div class="carousel-wrapper">
+                <div class="carousel-track" id="carouselTrack">
+
+                    <!-- Slide 1 -->
+                    <div class="slide">
+                        <div class="slide-inner">
+                            <div class="slide-photo">
+                                Foto futura 1
+                            </div>
+                            <div class="slide-text">
+                                <h3>Marca personal moderna</h3>
+                                <p>
+                                    Para autores, coaches o conferencistas.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="slide">
+                        <div class="slide-inner">
+                            <div class="slide-photo">
+                                Foto futura 2
+                            </div>
+                            <div class="slide-text">
+                                <h3>Salón de belleza</h3>
+                                <p>
+                                    Diseño femenino, estético y elegante.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="slide">
+                        <div class="slide-inner">
+                            <div class="slide-photo">
+                                Foto futura 3
+                            </div>
+                            <div class="slide-text">
+                                <h3>Landing page dinámica</h3>
+                                <p>
+                                    Enfoque en ventas y acción directa.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="carousel-controls">
+                    <button class="carousel-btn" id="prevBtn">← Anterior</button>
+                    <button class="carousel-btn" id="nextBtn">Siguiente →</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+    <!-- PORTAFOLIO REAL -->
+<section id="portafolio">
+    <h2 class="section-title">Portafolio</h2>
+    <p class="section-subtitle">
+        Aquí puedes ver algunos de los sitios que he creado. 
+        Esto te da ideas de estilos, estructuras y tipos de páginas que 
+        puedo diseñar para tu proyecto.
+    </p>
+
+    <div class="portfolio-grid">
+
+        <!-- PROYECTO 1 -->
+        <article class="portfolio-card">
+            <div class="portfolio-thumb">
+                <!-- Cuando tengas captura, reemplaza este div por un <img> -->
+                <span>Captura de ejemplo<br>Marca personal</span>
+            </div>
+            <div class="portfolio-body">
+                <h3>Marca personal para autora & conferencista</h3>
+                <p>
+                    Sitio web con biografía, agenda de eventos, libros y formulario de contacto.
+                    Pensado para mostrar autoridad y generar invitaciones a conferencias.
+                </p>
+                <div class="portfolio-tags">
+                    <span class="portfolio-tag">Marca personal</span>
+                    <span class="portfolio-tag">Eventos</span>
+                    <span class="portfolio-tag">Formulario de contacto</span>
+                </div>
+                <!-- Cuando esté online, pon la URL real -->
+                <a href="#" target="_blank" class="portfolio-link">
+                    Ver sitio
+                </a>
+            </div>
+        </article>
+
+        <!-- PROYECTO 2 -->
+        <article class="portfolio-card">
+            <div class="portfolio-thumb">
+                <span>Captura de ejemplo<br>Salón de belleza</span>
+            </div>
+            <div class="portfolio-body">
+                <h3>Web para salón de belleza</h3>
+                <p>
+                    Página para mostrar servicios, precios orientativos, galería de trabajos 
+                    y botón directo a WhatsApp para reservar.
+                </p>
+                <div class="portfolio-tags">
+                    <span class="portfolio-tag">Belleza & spa</span>
+                    <span class="portfolio-tag">Galería de fotos</span>
+                    <span class="portfolio-tag">WhatsApp</span>
+                </div>
+                <a href="#" target="_blank" class="portfolio-link">
+                    Ver sitio
+                </a>
+            </div>
+        </article>
+
+        <!-- PROYECTO 3 -->
+        <article class="portfolio-card">
+            <div class="portfolio-thumb">
+                <span>Captura de ejemplo<br>Landing de ventas</span>
+            </div>
+            <div class="portfolio-body">
+                <h3>Landing page para lanzamiento</h3>
+                <p>
+                    Estructura enfocada a un solo objetivo: vender un servicio o programa.
+                    Secciones cortas, claras y con llamada a la acción principal.
+                </p>
+                <div class="portfolio-tags">
+                    <span class="portfolio-tag">Lanzamiento</span>
+                    <span class="portfolio-tag">Embudo simple</span>
+                    <span class="portfolio-tag">Call to action</span>
+                </div>
+                <a href="#" target="_blank" class="portfolio-link">
+                    Ver sitio
+                </a>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+
+    <!-- SOBRE MÍ -->
+    <section id="sobre-mi">
+        <h2 class="section-title">Sobre mí</h2>
+        <div class="about">
+            <div>
+                <p>
+                    Soy <strong>Tracy Ramos</strong>, programadora web enfocada en crear diseños modernos y con comunicación clara.
+                </p>
+                <br>
+                <p>
+                    Me encanta transformar ideas en páginas funcionales y profesionales.
+                </p>
+            </div>
+            <div class="about-highlight">
+                <strong>Fortalezas:</strong>
+                <ul style="padding-left: 1.1rem;">
+                    <li>Diseños comunicativos</li>
+                    <li>Enfoque moderno</li>
+                    <li>Estrategia visual</li>
+                    <li>Claridad y simplicidad</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto">
+        <h2 class="section-title">Hablemos</h2>
+        <p class="section-subtitle">Cuéntame lo que necesitas.</p>
+
+        <div class="contact-grid">
+            <div>
+                <form action="#" method="post">
+                    <input type="text" placeholder="Tu nombre" required>
+                    <input type="email" placeholder="Correo electrónico" required>
+                    <textarea placeholder="Cuéntame sobre tu proyecto"></textarea>
+                    <button class="btn-primary" type="submit">Enviar</button>
+                </form>
+            </div>
+
+            <div class="contact-info">
+                <p>Contacto directo:</p>
+                <a href="tracywebtrabajos@gmail.com">📧 tracywebtrabajos@gmail.com</a>
+                <a href="https://wa.me/50664202291">📱 WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    © <span id="year"></span> Tracy Ramos – Programadora Web.
+</footer>
+
+<!-- BARRA PROMO "QUIERO COMPRAR MI PÁGINA WEB" -->
+<div id="promoBar" class="promo-bar">
+    <button id="promoClose" class="promo-close" aria-label="Cerrar">
+        ✕
+    </button>
+
+    <div class="promo-bar-content">
+        <div class="promo-text">
+            <span class="promo-pill">Quiero comprar mi página web</span>
+            <p>Déjame tus datos y te contacto para crear tu página profesional.</p>
+        </div>
+
+        <form class="promo-form" action="#" method="post">
+            <input
+                type="text"
+                name="nombre"
+                placeholder="Tu nombre"
+                required
+            />
+            <input
+                type="email"
+                name="email"
+                placeholder="Tu correo"
+                required
+            />
+            <input
+                type="tel"
+                name="whatsapp"
+                placeholder="Tu WhatsApp"
+            />
+            <select name="tipo">
+                <option value="">Tipo de página</option>
+                <option value="sitio-completo">Sitio web completo</option>
+                <option value="landing">Landing de ventas</option>
+                <option value="portafolio">Portafolio personal</option>
+                <option value="tienda">Tienda básica</option>
+            </select>
+
+            <button type="submit" class="btn-primary promo-btn">
+                Quiero mi página
+            </button>
+        </form>
+    </div>
+</div>
+
+<!-- BARRA PROMO "QUIERO COMPRAR MI PÁGINA WEB" -->
+<div id="promoBar" class="promo-bar">
+    <button id="promoClose" class="promo-close" aria-label="Cerrar">
+        ✕
+    </button>
+
+    <div class="promo-bar-content">
+        <div class="promo-text">
+            <span class="promo-pill">Quiero comprar mi página web</span>
+            <p>Déjame tus datos y te contacto para crear tu página profesional.</p>
+        </div>
+
+        <form class="promo-form" action="#" method="post">
+            <input
+                type="text"
+                name="nombre"
+                placeholder="Tu nombre"
+                required
+            />
+            <input
+                type="email"
+                name="email"
+                placeholder="Tu correo"
+                required
+            />
+            <input
+                type="tel"
+                name="whatsapp"
+                placeholder="Tu WhatsApp"
+            />
+            <select name="tipo">
+                <option value="">Tipo de página</option>
+                <option value="sitio-completo">Sitio web completo</option>
+                <option value="landing">Landing de ventas</option>
+                <option value="portafolio">Portafolio personal</option>
+                <option value="tienda">Tienda básica</option>
+            </select>
+
+            <button type="submit" class="btn-primary promo-btn">
+                Quiero mi página
+            </button>
+        </form>
+    </div>
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
